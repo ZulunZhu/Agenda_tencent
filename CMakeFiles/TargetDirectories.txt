@@ -1,0 +1,3 @@
+/home/zulun/Project/Agenda_tencent/CMakeFiles/rebuild_cache.dir
+/home/zulun/Project/Agenda_tencent/CMakeFiles/edit_cache.dir
+/home/zulun/Project/Agenda_tencent/CMakeFiles/agenda.dir

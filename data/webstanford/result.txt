@@ -1,0 +1,90 @@
+
+10/07/22 12:33:21
+function is 0.00634942 0.00305689
+Optimal X is    0.1119   1.0000
+
+original fx 1.35817 
+Minimum of the function is 0.106904
+***average: 0.00634942  0.00305689  1.16968
+ OA t_q: 0.00940759t_u: 1.16964 Throughput 1.6 Average response time 2.97161
+10/07/22 12:33:25
+function is 0.0148693 0.00251089
+Optimal X is    0.2133   1.0000
+
+original fx 0.394891 
+Minimum of the function is 0.116427
+***average: 0.0148693  0.00251089  0.680066
+ OA t_q: 0.0173808t_u: 0.19043 Throughput 2.4 Average response time 0.0634544
+ OA result when r_scale = 1  f_scale = 0.213316 time_window =  10   lambda_q = 2 lambda_u = 2 for 1 runs is throughput: 2 response time: 1517.53 ms
+ Optimized beta: -nan  -nan
+---------------------------------------------------------------
+10/07/22 16:35:02
+function is 0.00611939 0.00270742
+Optimal X is         0   1.0000
+
+original fx 0.902905 
+Minimum of the function is inf
+***average: 0.00611939  0.00270742  0.942626
+ OA t_q: 0.00882795t_u: 0.9426 Throughput 1.8 Average response time 2.55168
+ OA result when r_scale = 1  f_scale = 0 time_window =  10   lambda_q = 2 lambda_u = 2 for 1 runs is throughput: 1.8 response time: 2551.68 ms
+---------------------------------------------------------------
+10/07/22 16:48:22
+function is 0.00628641 0.0027249
+Optimal X is         0   1.0000
+
+original fx 1.04671 
+Minimum of the function is inf
+***average: 0.00628641  0.0027249  0.959226
+ OA t_q: 0.00901249t_u: 0.959203 Throughput 1.80947 Average response time 2.90796
+ OA result when r_scale = 1  f_scale = 0 time_window =  9.94769   lambda_q = 2.41262 lambda_u = 2.11104 for 1 runs is throughput: 1.80947 response time: 2907.96 ms
+---------------------------------------------------------------
+10/07/22 16:51:05
+======Tau0 is 0.000830279 0.00328051 0.0073189 0.000451459 0.000812593 
+Original tq is 0.0114297
+optimal tq is 0.0098925
+Optimal X is    1.4797   0.0750
+ 0 0 0 0 
+original fx 0.011735 
+Minimum of the function is 0.0102087
+***average: 0.0073189  0.00124542  0.00286537  0.000451459  0.000812593  
+maximum: 0.0165801  0.0184386  0.011714  0.00547133  0.0010987  
+ OA t_q: 0.0114303t_u: 0.00126405 Throughput 2.31209 Average response time 0.0105981  Crowded = 0.0302455
+ Optimized beta = 1.47969  0.0749862
+******tau: 0.0059603  0.000431683  0.00241141  0.00572575  0.00081021  
+IA t_q: 0.00880399t_u: 0.00653596 Throughput 2.31209 Average response time 0.00881035  Crowded = 0.0350384
+
+
+
+ OA result when r_scale = 0.0749862  f_scale = 1.47969 time_window =  9.94769   lambda_q = 2.41262 lambda_u = 2.11104 for 1 runs is throughput: 2.31209 response time: 10.5981 ms
+ IA result is throughput: 2.31209 response time: 8.81035 ms
+---------------------------------------------------------------
+10/07/22 16:58:44
+function is 0.00636667 0.00272328
+Optimal X is         0   1.0000
+
+original fx 1.55401 
+Minimum of the function is inf
+***average: 0.00636667  0.00272328  1.19944
+ OA t_q: 0.00909098t_u: 1.19942 Throughput 1.30684 Average response time 2.38982
+ OA result when r_scale = 1  f_scale = 0 time_window =  9.94769   lambda_q = 2.41262 lambda_u = 2.11104 for 1 runs is throughput: 1.30684 response time: 2389.82 ms
+---------------------------------------------------------------
+10/07/22 17:01:41
+function is 0.00639846 0.00267437
+Optimal X is         0   1.0000
+
+original fx 1.58224 
+Minimum of the function is inf
+***average: 0.00639846  0.00267437  1.21283
+ OA t_q: 0.00907413t_u: 1.21281 Throughput 1.30684 Average response time 2.38446
+ OA result when r_scale = 1  f_scale = 0 time_window =  9.94769   lambda_q = 2.41262 lambda_u = 2.11104 for 1 runs is throughput: 1.30684 response time: 2384.46 ms
+---------------------------------------------------------------
+10/07/22 17:02:06
+function is 0.00712256 0.0246545
+Optimal X is         0   1.0000
+
+original fx 0.0341537 
+Minimum of the function is inf
+***average: 0.00712256  0.0246545  4.57324e-06
+ OA t_q: 0.0317779t_u: 1.65471e-06 Throughput 2.31209 Average response time 0.0353312
+ OA result when r_scale = 1  f_scale = 0 time_window =  9.94769   lambda_q = 2.41262 lambda_u = 2.11104 for 1 runs is throughput: 2.31209 response time: 35.3312 ms
+---------------------------------------------------------------
