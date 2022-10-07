@@ -144,6 +144,7 @@ public:
     double lambda_u = 200; //ratio of update
     double rate = 1.0; //ratio of query/update
     double simulation_time = 10.0; //simulation time
+    double initial_time = 0; //initial time
     int runs = 1;//multiple runs
     int linear_runs = 5;
     double test_beta1 = 1.0;

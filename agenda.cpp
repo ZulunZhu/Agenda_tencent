@@ -636,11 +636,15 @@ int main(int argc, char *argv[]) {
                     int node; 
                     char time_q[100];
                     
+                    bool initial_flag = true;
                     while (fscanf(fin_q, "%d%s", &node, time_q) != EOF) {
                         assert(node < config.nodes); 
                         INFO(node);
                         INFO(time_q); 
-                                                
+                        if(initial_flag){
+                            config.initial_time = atof(time_q);
+                            initial_flag = false;
+                        }                      
                         Query query(node, atof(time_q), DQUERY, 0);
                         list_query.push_back(query);           
                     }
@@ -650,9 +654,15 @@ int main(int argc, char *argv[]) {
                     FILE *fin_u = fopen(update_stream.c_str(), "r");
                     int node1,node2; 
                     char time_u[100];
+                    initial_flag = true;
                     while (fscanf(fin_u, "%d%d%s", &node1, &node2, time_u) != EOF) {
                         INFO(node1);
                         INFO(time_u); 
+                        if(initial_flag){
+                            config.initial_time = (config.initial_time<atof(time_u))? config.initial_time:atof(time_u);
+                            initial_flag = false;
+                        } 
+                    
                         assert(node1 < config.nodes); 
                         assert(node2 < config.nodes);                              
                         Query update(node1, atof(time_u), DUPDATE, 0);
@@ -666,6 +676,7 @@ int main(int argc, char *argv[]) {
                     INFO(list_query.size());
                     INFO(updates.size());
                     config.simulation_time = (atof(time_q)>atof(time_u))? atof(time_q):atof(time_u);
+                    config.simulation_time = config.simulation_time-config.initial_time;
                     config.lambda_q = list_query.size()/config.simulation_time;
                     config.lambda_u = updates.size()/config.simulation_time;
                     

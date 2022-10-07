@@ -14,3 +14,4 @@ Algorithm: lazyup0 time window: 9.94769 Query rate: 2.41262 update rate: 2.11104
 Algorithm: fora0 time window: 9.94769 Query rate: 2.41262 update rate: 2.11104 Original Response time: 2.38982 s time cost: 25.4101
 Algorithm: fora1 time window: 9.94769 Query rate: 2.41262 update rate: 2.11104 Original Response time: 2.38446 s time cost: 25.6906
 Algorithm: fora0 time window: 9.94769 Query rate: 2.41262 update rate: 2.11104 Original Response time: 0.0353312 s time cost: 0.766776
+Algorithm: fora0 time window: 9.69438 Query rate: 2.47566 update rate: 2.1662 Original Response time: 0.0353875 s time cost: 0.766145

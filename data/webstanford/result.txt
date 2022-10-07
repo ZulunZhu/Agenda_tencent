@@ -88,3 +88,13 @@ Minimum of the function is inf
  OA t_q: 0.0317779t_u: 1.65471e-06 Throughput 2.31209 Average response time 0.0353312
  OA result when r_scale = 1  f_scale = 0 time_window =  9.94769   lambda_q = 2.41262 lambda_u = 2.11104 for 1 runs is throughput: 2.31209 response time: 35.3312 ms
 ---------------------------------------------------------------
+10/07/22 17:56:57
+function is 0.00709238 0.0246437
+Optimal X is         0   1.0000
+
+original fx 0.034184 
+Minimum of the function is inf
+***average: 0.00709238  0.0246437  4.86886e-06
+ OA t_q: 0.0317372t_u: 1.61833e-06 Throughput 2.37251 Average response time 0.0353875
+ OA result when r_scale = 1  f_scale = 0 time_window =  9.69438   lambda_q = 2.47566 lambda_u = 2.1662 for 1 runs is throughput: 2.37251 response time: 35.3875 ms
+---------------------------------------------------------------
