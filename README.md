@@ -10,6 +10,13 @@
 ```sh
 $ bash run_library.sh
 ```
+
+## Run all the experiments 
+
+```sh
+$ bash run_tencent.sh
+```
+
 ## About the tencent dataset
 ```sh
 $ cd data
